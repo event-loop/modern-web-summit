@@ -1,0 +1,152 @@
+@import "/fonts/font.css";
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+html,
+#__next {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    @apply bg-gray-100 font-blender h-full;
+}
+
+.custom-btn {
+    @apply text-black py-4 px-6 uppercase border-none rounded-md text-xl font-extrabold bg-lightGreen-200;
+    min-width: 275px;
+    /* background: linear-gradient(355.25deg, #803A9A 2.77%, #BB6BD9 95.12%); */
+}
+
+.profile-card img {
+    filter: grayscale(100%);
+}
+
+.profile-card:hover img {
+    filter: grayscale(0%);
+}
+
+.sponsor-img {
+    filter: grayscale(100%);
+}
+
+.sponsor-img:hover {
+    filter: grayscale(0%);
+}
+
+.filter-none {
+    filter: grayscale(0%) !important;
+}
+
+.delay-75s {
+    animation-delay: 0.75s;
+    -moz-animation-delay: 0.75s;
+    -webkit-animation-delay: 0.75s;
+}
+
+.delay-1s {
+    animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+}
+
+.delay-2s {
+    animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1880px) and (-webkit-min-device-pixel-ratio: 1) {
+    .logo img {
+        @apply w-300 mb-5;
+    }
+
+    .custom-btn {
+        @apply text-black py-2 px-4 uppercase border-none rounded-md text-xl font-extrabold bg-lightGreen-200;
+    }
+
+    .left-bar img,
+    .right-bar img {
+        @apply w-16;
+    }
+
+    .left-bar {
+        @apply -mt-24;
+    }
+
+    .right-bar {
+        @apply -translate-y-12;
+    }
+
+    .menu-btn {
+        @apply p-4;
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 227dpi),
+    only screen and (min-resolution: 2dppx) {
+    .logo img {
+        @apply w-450 mb-10;
+    }
+    .custom-btn {
+        @apply text-black py-4 px-6 uppercase border-none rounded-md text-xl font-extrabold bg-lightGreen-200;
+    }
+
+    .left-bar img,
+    .right-bar img {
+        @apply w-auto;
+    }
+
+    .left-bar {
+        @apply -mt-10;
+    }
+
+    .right-bar {
+        @apply -translate-y-48;
+    }
+
+    .menu-btn {
+        @apply p-6;
+    }
+}
+
+.arrow-link span {
+    display: inline-block;
+    transition: 0.3s ease-in;
+}
+
+.arrow-link:hover span {
+    transform: translateX(50%);
+}
+
+.animation-duration-500 {
+    animation-duration: 500ms;
+}
+
+.Typist .Cursor {
+    display: inline-block;
+}
+
+.Typist .Cursor--blinking {
+    opacity: 1;
+    animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
