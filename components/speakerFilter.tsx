@@ -24,11 +24,11 @@ const FilterItem = (props: FilterItemProps) => {
   const { image, title, selected, onClick } = props
   return (
     <div
-      className={`ml-5 my-5 flex py-3 pr-2 rounded cursor-pointer ${selected ? 'bg-black' : 'bg-gray-600 hover:bg-gray-700'}`}
+      className={`ml-5 my-3 flex py-3 pr-2 rounded cursor-pointer ${selected ? 'bg-black' : 'bg-gray-600 hover:bg-gray-700'}`}
       onClick={onClick}
     >
-      <img src={image} className="pl-2  " />
-      <p className="pl-3 pr-2 text-base text-white uppercase font-extrabold leading-5 ">{title}</p>
+      <img src={image} className="pl-2 h-5" />
+      <p className="pl-3 pr-2 text-1-2 text-white uppercase font-extrabold leading-5 ">{title}</p>
     </div>
   )
 }

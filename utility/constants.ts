@@ -107,7 +107,7 @@ export const SpeakerFilters = [
   },
   {
     id: 2,
-    title: 'accessibility',
+    title: 'Accessibility',
     image: '/images/speakerFilter/track-accessibility-icon.svg',
     selected: false
   },
@@ -119,34 +119,47 @@ export const SpeakerFilters = [
   },
   {
     id: 4,
-    title: 'graphql',
+    title: 'GraphQL',
     image: '/images/speakerFilter/track-graphql-icon.svg',
     selected: false
   },
   {
     id: 5,
-    title: 'jamstack',
+    title: 'Jamstack',
     image: '/images/speakerFilter/track-jamstack-icon.svg',
     selected: false
   },
   {
     id: 6,
+    title: 'Open Source',
+    image: '/images/speakerFilter/track-open-source-icon.svg',
+    selected: false
+  },
+  {
+    id: 7,
     title: 'react',
     image: '/images/speakerFilter/track-react-icon.svg',
     selected: false
   },
   {
-    id: 7,
-    title: 'serverless',
+    id: 8,
+    title: 'Serverless',
     image: '/images/speakerFilter/track-serverless-icon.svg',
     selected: false
   },
+  ,
   {
-    id: 8,
-    title: 'vue',
-    image: '/images/speakerFilter/track-vue-icon.svg',
+    id: 9,
+    title: 'Svelte',
+    image: '/images/speakerFilter/track-svelte.svg',
     selected: false
   },
+  {
+    id: 10,
+    title: 'Vue',
+    image: '/images/speakerFilter/track-vue-icon.svg',
+    selected: false
+  }
 ]
 
 
@@ -156,83 +169,118 @@ export const links = [
 
     link: [
       {
-        title: 'home',
-        url: ''
+        title: 'Home',
+        url: '/'
       },
       {
         title: 'Speakers',
-        url: ''
+        url: '/#speakers'
       },
       {
         title: 'Sponsors',
-        url: ''
+        url: '/#sponsors'
       },
       {
-        title: 'curators',
-        url: ''
+        title: 'Curators',
+        url: '/#curators'
       },
     ]
   },
 
   {
     link: [
-      {
-        title: 'Terms of Service',
-        url: ''
-      },
-      {
-        title: 'Privacy Policy',
-        url: ''
-      },
+      // {
+      //   title: 'Terms of Service',
+      //   url: '/term-service',
+      // },
+      // {
+      //   title: 'Privacy Policy',
+      //   url: '/privacy-policy',
+      // },
       {
         title: 'Code of Conduct',
-        url: ''
+        url: '/code-of-conduct',
       },
       {
-        title: 'Selection Committee',
-        url: ''
-      },
-    ]
-  },
-  {
-    link: [
-      {
-        title: 'WorkShops',
-        url: ''
+        title: 'Workshops - coming soon',
+        url: '',
       },
       {
-        title: 'Jobs',
-        url: ''
-      },
-      {
-        title: 'Volunteer',
-        url: ''
+        title: 'Jobs - coming soon',
+        url: '',
       },
       {
         title: 'Schedule - coming soon',
-        url: ''
+        url: '',
       },
+      // {
+      //   title: 'Selection Committee',
+      //   url: 'https://www.google.com/',
+      // }
     ]
   },
+  // {
+  //   link: [
+  //     {
+  //       title: 'Workshops',
+  //       url: 'https://www.google.com/',
+  //     },
+  //     {
+  //       title: 'Jobs',
+  //       url: 'https://www.google.com/',
+  //     },
+  //     {
+  //       title: 'Volunteer',
+  //       url: 'https://docs.google.com/forms/d/e/1FAIpQLScxt_u_khXb3AAn7zp8clvpktpWHSmx01pN1N0xtTDvQB5aaA/viewform',
+  //     },
+  //     {
+  //       title: 'Schedule - coming soon',
+  //       url: 'https://www.google.com/',
+  //     },
+  //   ]
+  // },
 
   {
     link: [
       {
-        title: 'Request for SponsorShip',
-        url: ''
+        title: 'Request for Sponsorship',
+        url: '',
       },
-      {
-        title: 'Apply for Scholarship',
-        url: ''
-      },
-      {
-        title: 'Convince your boss',
-        url: ''
-      },
+      // {
+      //   title: 'Apply for Scholarship',
+      //   url: '',
+      // },
+      // {
+      //   title: 'Convince your boss',
+      //   url: '',
+      // },
       {
         title: 'Submit a talk proposal',
-        url: ''
+        url: '',
       },
+      {
+        title: 'Volunteers',
+        url: 'https://docs.google.com/forms/d/e/1FAIpQLScxt_u_khXb3AAn7zp8clvpktpWHSmx01pN1N0xtTDvQB5aaA/viewform',
+      }
     ]
+  }
+]
+
+export const buttonList = [
+  {
+    label: 'Home',
+    pageName: ''
+  },
+  {
+    label: 'speakers',
+    pageName: 'speakers'
+  },
+  {
+    label: 'sponsors',
+    pageName: 'sponsors'
+  },
+  {
+    label: 'curators',
+    pageName: 'curators'
   }
 ]

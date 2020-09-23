@@ -18,13 +18,18 @@ module.exports = {
         '1': '1deg',
         '-1': '-1deg'
       },
+      minWidth: {
+        '275': '275px'
+      },
       spacing: {
         '450': '450px',
+        '400': '400px',
         '300': '300px',
+        '260': '260px',
         '110': '110px'
       },
       fontSize: {
-        'base': '1.2rem',
+        '1-2': '1.2rem',
         '2-8': '2.8rem'
       },
       boxShadow: {
@@ -32,6 +37,9 @@ module.exports = {
       },
       minHeight: {
         '778': '778px'
+      },
+      maxHeight: {
+        'full-100': 'calc(100% - 100px)'
       },
       height: {
         '100-5': 'calc(100% - 5rem)'

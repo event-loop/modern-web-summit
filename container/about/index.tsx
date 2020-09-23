@@ -21,15 +21,15 @@ const About = (props: VisibleProps) => {
         </div>
         <div className="flex flex-col p-6 sm:text-center lg:text-left lg:pt-24">
           <h5 className="text-2xl font-extrabold uppercase" >{"the modern web is constantly evolving"}</h5>
-          <p className="text-gray-300 font-medium text-base md:w-full sm:w-full">{"Each one of us have contributed to the modern web in our own way. We discover technologies that solve our problems (and perhaps inspire us), join a community, and get to work. We share our experience with our coworkers, colleagues, and online network. But there is much more to the web community than our own little islands."}</p>
-          <p className="text-gray-300 font-medium text-base md:w-full sm:w-full pt-8">{"The Modern Web Summit not only to provides you with in-depth knowledge about the technologies you’re currently working with, but also exposes you to new ways of thinking and approaches from adjacent communities. You’ll learn from thought-leaders in your community and beyond, and connect with like-minded individuals with unique, thought-provoking perspectives. "}</p>
+          <p className="text-gray-300 font-medium text-1-2 md:w-full sm:w-full">{"Each one of us have contributed to the modern web in our own way. We discover technologies that solve our problems (and perhaps inspire us), join a community, and get to work. We share our experience with our coworkers, colleagues, and online network. But there is much more to the web community than our own little islands."}</p>
+          <p className="text-gray-300 font-medium text-1-2 md:w-full sm:w-full pt-8">{"The Modern Web Summit not only to provides you with in-depth knowledge about the technologies you’re currently working with, but also exposes you to new ways of thinking and approaches from adjacent communities. You’ll learn from thought-leaders in your community and beyond, and connect with like-minded individuals with unique, thought-provoking perspectives. "}</p>
         </div>
       </div>
       <div className="flex flex-wrap lg:mt-6 lg:px-24">
         <AnimationWrapper parentClass="md:w-3/5 sm:w-full md:p-10 sm:p-5">
           <p className="text-2xl uppercase text-black font-extrabold">More than just a livestream</p>
-          <p className="text-gray-300 font-medium text-base sm:w-full pt-4">{"Let’s face it: a livestream of talks is not a real conference. There is so much more to a conference than the presentations, and the online events we’ve seen in 2020 simply don’t achieve a true conference experience."}</p>
-          <p className="text-gray-300 font-medium text-base sm:w-full pt-8">{"The Modern Web Summit is different. It takes place on a new, revolutionary events platform called EventLoop -- a web app that’s purpose-built for online meetups and conferences. It provides attendees, speakers, and sponsors alike with an all-encompassing experience that inspires and facilitates true connections between people.  "}</p>
+          <p className="text-gray-300 font-medium text-1-2 sm:w-full pt-4">{"Let’s face it: a livestream of talks is not a real conference. There is so much more to a conference than the presentations, and the online events we’ve seen in 2020 simply don’t achieve a true conference experience."}</p>
+          <p className="text-gray-300 font-medium text-1-2 sm:w-full pt-8">{"The Modern Web Summit is different. It takes place on a new, revolutionary events platform called EventLoop -- a web app that’s purpose-built for online meetups and conferences. It provides attendees, speakers, and sponsors alike with an all-encompassing experience that inspires and facilitates true connections between people.  "}</p>
         </AnimationWrapper>
         <AnimationWrapper parentClass="md:w-2/5 sm:w-full sm:p-5 md:pt-24">
           <img src="/images/mws_plus_eventloop.svg" />
@@ -45,7 +45,7 @@ const About = (props: VisibleProps) => {
             secondDescription=""
             parentClass=""
             url="https://www.google.co.in/"
-            linkText="See all the keynotes "
+            // linkText="See all the keynotes "
           />
         </AnimationWrapper>
         <AnimationWrapper parentClass="md:w-1/2 sm:w-full md:p-10 md:pt-0 sm:p-5">
@@ -56,7 +56,7 @@ const About = (props: VisibleProps) => {
             secondDescription=""
             parentClass=""
             url="https://www.google.co.in/"
-            linkText="See all the tracks and speakers "
+            // linkText="See all the tracks and speakers "
           />
         </AnimationWrapper>
         <AnimationWrapper parentClass="md:w-1/2 sm:w-full md:p-10 md:pt-0 sm:p-5">
@@ -67,7 +67,7 @@ const About = (props: VisibleProps) => {
             secondDescription="With discussion sessions, you can participate in a number of ways: passively watch and listen, engage with the discussion group via the in-app chat room, or join the video discussion to get face-time with your fellow attendees and speakers!  "
             parentClass=""
             url="https://www.google.co.in/"
-            linkText="See all the SCHEDULED DISCUSSION BREAKOUTS "
+            // linkText="See all the SCHEDULED DISCUSSION BREAKOUTS "
           />
         </AnimationWrapper>
         <AnimationWrapper parentClass="md:w-1/2 sm:w-full md:p-10 md:pt-0 sm:p-5">
@@ -78,7 +78,7 @@ const About = (props: VisibleProps) => {
             secondDescription=""
             parentClass=""
             url=""
-            linkText=""
+            // linkText=""
           />
         </AnimationWrapper>
         <AnimationWrapper parentClass="md:w-1/2 sm:w-full md:p-10 md:pt-0 sm:p-5">
@@ -89,7 +89,7 @@ const About = (props: VisibleProps) => {
             secondDescription="The Full Access ticket includes access to the daily Mini Workshops. Full Day & 2-day Workshops are sold separately from the conference."
             parentClass=""
             url="https://www.google.co.in/"
-            linkText="See all the workshops available  "
+            // linkText="See all the workshops available  "
           />
         </AnimationWrapper>
         <AnimationWrapper parentClass="md:w-1/2 sm:w-full md:p-10 md:pt-0 sm:p-5">
@@ -100,7 +100,7 @@ const About = (props: VisibleProps) => {
             secondDescription=""
             parentClass=""
             url="https://www.google.co.in/"
-            linkText="See all of our sponsors "
+            // linkText="See all of our sponsors "
           />
         </AnimationWrapper>
         <AnimationWrapper parentClass="md:w-1/2 sm:w-full md:p-10 md:pt-0 sm:p-5">
@@ -111,7 +111,7 @@ const About = (props: VisibleProps) => {
             secondDescription=""
             parentClass=""
             url=""
-            linkText=""
+            // linkText=""
           />
         </AnimationWrapper>
         <AnimationWrapper parentClass="md:w-1/2 sm:w-full md:p-10 md:pt-0 sm:p-5">
@@ -122,7 +122,7 @@ const About = (props: VisibleProps) => {
             secondDescription="Join us at the Modern Web Summit hiring mixer, where you’ll choose which companies you’re interested in sending your information, and companies will follow up via email or schedule a video meeting. "
             parentClass=""
             url="https://www.google.co.in/"
-            linkText="LEARN MORE ABOUT THE HIRING MIXER "
+            // linkText="LEARN MORE ABOUT THE HIRING MIXER "
           />
         </AnimationWrapper>
       </div>

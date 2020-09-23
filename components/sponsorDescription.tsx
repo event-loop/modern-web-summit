@@ -15,7 +15,7 @@ const SponsorDescription = (props: SponsorDescriptionProps) => {
     <div className={parentClass}>
       <div className={innerClass} >
         <a href="https://www.google.co.in/">
-          <img className={`inline mb-5 opacity-75 hover:opacity-100 ${imageClass}`} src={image} />
+          <img className={`inline mb-6 opacity-75 hover:opacity-100 ${imageClass}`} src={image} />
         </a>
         <AnimationWrapper parentClass="" effect={"fadeIn"}>
           <p className={descriptionClass}>{description}</p>

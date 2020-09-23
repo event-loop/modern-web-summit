@@ -9,7 +9,7 @@ const SectionWrapper = (props) => {
       partialVisibility
       onChange={(visible) => setVisible(visible)}
       active={!isVisible}>
-      <Component isVisible={isVisible} />
+      <Component isVisible={isVisible} {...props}/>
     </VisibilitySensor>
   )
 }

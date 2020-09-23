@@ -14,17 +14,60 @@ body {
 }
 
 .custom-btn {
-    @apply text-black py-4 px-6 uppercase border-none rounded-md text-xl font-extrabold bg-lightGreen-200;
-    min-width: 275px;
-    /* background: linear-gradient(355.25deg, #803A9A 2.77%, #BB6BD9 95.12%); */
+    @apply text-black py-4 px-6 uppercase rounded-md text-xl font-extrabold bg-lightGreen-200 min-w-275;
+}
+
+.animate-btn {
+    @apply text-gray-400 py-4 px-6 uppercase border-2 border-gray-400 text-xl font-extrabold transition-all duration-300 relative;
+    background: linear-gradient(to right, black 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+}
+
+.animate-btn:focus {
+    @apply outline-none;
+}
+
+.animate-btn:hover {
+    @apply text-lightGreen-200;
+    background-position: left bottom;
+}
+
+.animate-btn:hover::after {
+    display: none;
+}
+
+.animate-btn::after {
+    content: "";
+    position: absolute;
+    background-color: #16ff11;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    transform: rotate(-3deg);
+    transform-origin: bottom center;
 }
 
 .profile-card img {
     filter: grayscale(100%);
+    transition: 0.3s ease-in-out;
 }
 
 .profile-card:hover img {
     filter: grayscale(0%);
+    transition: 0.3s ease-in-out;
+}
+
+.profile-card:hover h5 {
+    @apply text-lightGreen-200;
+    transition: 0.5s all;
+}
+
+.profile-card:hover p {
+    @apply opacity-100;
+    transition: 0.5s all;
 }
 
 .sponsor-img {
@@ -59,7 +102,7 @@ body {
 
 @media screen and (min-device-width: 1200px) and (max-device-width: 1880px) and (-webkit-min-device-pixel-ratio: 1) {
     .logo img {
-        @apply w-300 mb-5;
+        @apply w-260 mb-5 -mt-8;
     }
 
     .custom-btn {
@@ -80,7 +123,7 @@ body {
     }
 
     .menu-btn {
-        @apply p-4;
+        @apply p-3;
     }
 }
 
@@ -91,7 +134,7 @@ body {
     only screen and (min-resolution: 227dpi),
     only screen and (min-resolution: 2dppx) {
     .logo img {
-        @apply w-450 mb-10;
+        @apply w-400 mb-10 -mt-12;
     }
     .custom-btn {
         @apply text-black py-4 px-6 uppercase border-none rounded-md text-xl font-extrabold bg-lightGreen-200;
@@ -115,13 +158,24 @@ body {
     }
 }
 
+.arrow-link {
+    @apply mt-5 text-lg font-bold border-l-4 border-lightGreen-200 pl-2 uppercase leading-6 text-black transition-all duration-300;
+    background: linear-gradient(to right, #16FF11 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+}
+
+.arrow-link:hover {
+    background-position: left bottom;
+}
+
 .arrow-link span {
     display: inline-block;
     transition: 0.3s ease-in;
 }
 
 .arrow-link:hover span {
-    transform: translateX(50%);
+    transform: translateX(15px);
 }
 
 .animation-duration-500 {

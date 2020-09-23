@@ -4,9 +4,10 @@ import ProfileCard from '../../components/profileCard'
 import AnimationWrapper from '../../components/animationWrapper'
 import { VisibleProps } from '../sponsor'
 import CuratorsList from '../../utility/curatorList.json'
+import Link from 'next/link'
 
-const Curators = (props: VisibleProps) => {
-  const { isVisible } = props
+const Curators = (props: any) => {
+  const { isVisible, onSelectSpeaker } = props
   const [className, setClass] = useState('')
 
   useEffect(() => {
@@ -23,7 +24,7 @@ const Curators = (props: VisibleProps) => {
         </div>
         <div className="flex flex-col p-6 sm:text-center lg:text-left lg:pt-24">
           <h5 className="text-2xl font-extrabold uppercase" >{"expert talk selection"}</h5>
-          <p className="text-gray-300 font-medium text-base lg:w-4/6 sm:w-full">{"We’ve assembled a team of experts well-known for their knowledge in and contributions to their industry & specialization. Track curators also work together to select the general session keynotes!"}</p>
+          <p className="text-gray-300 font-medium text-1-2 lg:w-4/6 sm:w-full">{"We’ve assembled a team of experts well-known for their knowledge in and contributions to their industry & specialization. Track curators also work together to select the general session keynotes!"}</p>
         </div>
       </div>
 
@@ -45,20 +46,20 @@ const Curators = (props: VisibleProps) => {
                     designation={title}
                     companyName={company}
                     locationFull={location}
-                    locationSort={location}
                   />
                 </div>
                 <div className="flex flex-col md:w-2/3 sm:w-full md:pl-10 sm:pl-0 md:text-left sm:text-center">
-                  <p className="text-gray-300 text-base font-medium">{bio}</p>
-                  {twitterURL !== '' && <a 
-                  className="text-blue-100 text-base font-medium cursor-pointer">
+                  <p className="text-gray-300 text-1-2 font-medium">{bio}</p>
+                  {twitterURL !== '' && <a href={'https://twitter.com/mwSummit'}
+                  className="text-blue-100 text-1-2 font-medium cursor-pointer">
                     {"Send us your best guesses on twitter!"}
                     </a>}
                   {allLink && 
-                  <a href="https://www.google.co.in/" 
-                  className="mt-5 md:self-start sm:self-center text-lg font-bold border-l-4 border-lightGreen-200 pl-2 uppercase arrow-link leading-6 hover:text-blue-100">
+                  <Link href='/#speakers'>
+                  <a onClick={() => {onSelectSpeaker(track)}} 
+                  className="md:self-start sm:self-center arrow-link">
                     {allLink}
-                    <span className="arrow">{' > '}</span> </a>}
+                    <span className="arrow">{' > '}</span> </a></Link>}
                 </div>
               </div>
             </AnimationWrapper>

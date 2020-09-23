@@ -28,8 +28,8 @@ const FinanceDescription = (props: FinanceDescriptionProps) => {
         </div>
         <p className="text-2xl uppercase text-black font-extrabold mb-2" >{title}</p>
         {financeImage && <img src={financeImage} className="my-6 opacity-50" />}
-        <p className="text-gray-300 font-medium text-base sm:w-full mb-8">{description}</p>
-        {linkText && <a href={url} className="sm:mt-5 md:mt-0 md:self-start sm:self-center text-lg font-bold border-l-4 border-lightGreen-200 pl-2 uppercase arrow-link leading-6 hover:text-blue-100">{linkText} <span className="arrow">{' > '}</span></a>}
+        <p className="text-gray-300 font-medium text-1-2 sm:w-full mb-8">{description}</p>
+        {linkText && <a href={url} className="sm:mt-5 md:mt-0 md:self-start sm:self-center text-lg font-bold border-l-4 border-lightGreen-200 pl-2 uppercase arrow-link leading-6 hover:text-black">{linkText} <span className="arrow">{' > '}</span></a>}
       </div>
     </VisibilitySensor>
   )

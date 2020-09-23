@@ -22,7 +22,7 @@ const Finances = (props: VisibleProps) => {
         </div>
         <div className="flex flex-col p-6 sm:text-center lg:text-left lg:pt-24">
           <h5 className="text-2xl font-extrabold uppercase" >{"where does the money for this event go? "}</h5>
-          <p className="text-gray-300 font-medium text-base lg:w-4/6 sm:w-full">{"The pricing of this event is intended to be extremely affordable in order to maximize our reach and accessibility. But there are still many expenses and other plans for the income from the event, and we have chosen to be completely upfront about where that money is going! "}</p>
+          <p className="text-gray-300 font-medium text-1-2 lg:w-4/6 sm:w-full">{"The pricing of this event is intended to be extremely affordable in order to maximize our reach and accessibility. But there are still many expenses and other plans for the income from the event, and we have chosen to be completely upfront about where that money is going! "}</p>
         </div>
       </div>
       <div className="md:p-10 sm:p-5">
@@ -32,9 +32,9 @@ const Finances = (props: VisibleProps) => {
         <AnimationWrapper parentClass="lg:w-1/2 sm:w-full md:p-10 md:pt-0 sm:p-5">
           <FinanceDescription
             title="donation to freecodecamp"
-            description="freeCodeCamp is a 501(c)(3) nonprofit and has done some amazing things for students of web development -- helping thousands around the world to get new jobs as web designers & developers. During this crisis in particular, their monthly active users (MAU) has grown to over 11 million -- but they have yet to receive any large donations from the big companies to help pay for their servers and staff. In other words, they're struggling! We hope to change that with both direct contributions from our tickets sales and encouragement of our attendees & sponsors to donate what they can."
-            linkText="Learn more about freecodecamp "
-            url="https://www.google.co.in/"
+            description="freeCodeCamp is a 501(c)(3) nonprofit and has done some amazing things for students of web development -- helping thousands around the world to get new jobs as web designers & developers. During this crisis in particular, their monthly active users (MAU) has peaked at 11 million, and settled at 6 million. However, the majority of their donations come from small, independent donors -- mostly from fcc alumni now working as developers. In other words, they're struggling! We hope to change that with direct contributions from our tickets sales in addition to  encouragement of our attendees & sponsors to donate what they can. Will you help fcc in their mission to help people learn to code for free? Donate today!"
+            linkText="Send a Donation to freeCodeCamp "
+            url="https://www.freecodecamp.org/donate/"
             image="/images/20.svg"
             financeImage="/images/sponsor-freecodecamp.svg"
             parentClass=""
