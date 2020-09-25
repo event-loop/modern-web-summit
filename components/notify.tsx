@@ -16,7 +16,10 @@ const NotifyForm = (props: NotifyFormProps) => {
                 <button
                     className={`custom-btn transition-all duration-300 hover:bg-gray-400 hover:text-lightGreen-200 md:px-6 sm:px-4 focus:outline-none ${buttonClass}`}
                     type="button"
-                    onClick={() => setShowForm(!showForm)}>
+                    onClick={() => 
+                        (document.location.href =
+                          'https://ti.to/eventloophq/modern-web-summit')
+                      }>
                     get tickets
                 </button>
                 || <div className="flex sm:flex-wrap md:flex-no-wrap sm:p-4 md:p-0">
