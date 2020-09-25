@@ -68,15 +68,11 @@ const NavMenu = (props: any) => {
               Volunteer
             </a>
           </p>
-          <p className={textClass}>Request for Sponsorship</p>
-          <p className={textClass}>Apply for Scholarship</p>
-          <p className={textClass}>Convince your boss</p>
-          <p className={textClass}>Submit a talk proposal</p>
-
-          {/* <p><a className={linkClass} href="https://www.google.co.in/">Request for Sponsorship</a></p>
-          <p><a className={linkClass} href="https://www.google.co.in/">Apply for Scholarship</a></p>
-          <p><a className={linkClass} href="https://www.google.co.in/">Convince your boss</a></p>
-          <p><a className={linkClass} href="https://www.google.co.in/">Submit a talk proposal</a></p> */}
+          {/* <p className={textClass}>Request for Sponsorship</p> */}
+          {/* <p className={textClass}>Convince your boss</p> */}
+          <p><a className={linkClass} href="https://docs.google.com/forms/d/e/1FAIpQLSdpEOR83g1-kORQ35n8jMA9Uwz-SsMroR9-KnmaZlIPriYVrQ/viewform">Request for Sponsorship</a></p>
+          {/* <p><a className={linkClass} href="https://www.google.co.in/">Convince your boss</a></p> */}
+          <p><a className={linkClass} href="https://docs.google.com/forms/d/e/1FAIpQLSd2mAqQAEs1K8HpTs41XcX7u8CpPx975gJ2VJCjE3bjNb-vzQ/viewform?usp=sf_link">Submit a talk proposal</a></p>
         </div>
       </div>
     </div>

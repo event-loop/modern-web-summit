@@ -5,12 +5,14 @@ const involvmentList = [
   {
     buttonText: 'sponsor',
     description: 'Want to be an intimate part of the web event of the year? Register your interest here!',
-    buttonClick: ''
+    buttonClick: '',
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLSdpEOR83g1-kORQ35n8jMA9Uwz-SsMroR9-KnmaZlIPriYVrQ/viewform'
   },
   {
     buttonText: 'submit a talk',
     description: 'Fancy giving a talk, participating in a panel, or leading a discussion group? Apply here!',
-    buttonClick: ''
+    buttonClick: '',
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLSd2mAqQAEs1K8HpTs41XcX7u8CpPx975gJ2VJCjE3bjNb-vzQ/viewform'
   },
   {
     buttonText: 'volunteer',
@@ -21,12 +23,14 @@ const involvmentList = [
   {
     buttonText: 'edit this website',
     description: 'See any errors? Have a clever design idea or animation? Send us a PR on GitHub!',
-    buttonClick: ''
+    buttonClick: '',
+    link: 'https://github.com/event-loop/modern-web-summit'
   },
   {
     buttonText: 'contact us',
     description: 'Send us an email with any questions, or tweet/message us on Twitter! ',
-    buttonClick: ''
+    buttonClick: '',
+    link: 'mailto:info@eventloop.app'
   }
 ]
 
