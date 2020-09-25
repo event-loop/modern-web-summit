@@ -12,8 +12,8 @@ const ProfileCard = (props: ProfileCardProps) => {
         <p className="text-lg text-black font-bold tracking-wide uppercase">See all speakers {'>'}</p>
       </div> : <div className="bg-gray-400 p-5">
           <h5 className="text-white uppercase text-1-2">{name}</h5>
-          <p className="capitalize text-white opacity-75 text-sm">{designation}</p>
-          {companyName !== '' && <p className="text-white opacity-75 text-sm mt-2 flex items-baseline"><img className="inline mr-2 h-3" src="/images/office.svg" alt="office" /> <span>{companyName}</span></p>}
+          <p className="capitalize text-white opacity-75 text-sm mb-2">{designation}</p>
+          {companyName !== '' && <p className="text-white opacity-75 text-sm flex items-baseline"><img className="inline mr-2 h-3" src="/images/office.svg" alt="office" /> <span>{companyName}</span></p>}
           <p className="text-white opacity-75 text-sm flex items-baseline"><img className="inline mr-2 h-3" src="/images/map-pin.svg" alt="address" /> <span>{locationFull}</span></p>
         </div>}
     </>
@@ -22,21 +22,21 @@ const ProfileCard = (props: ProfileCardProps) => {
       <img src={imageUrl} alt="image" className={`w-full ${imageClass}`} />
       <div className="bg-gray-400 p-5">
         <h5 className="text-white uppercase text-1-2">{name}</h5>
-        <p className="capitalize text-white opacity-75 text-sm">{designation}</p>
-        {companyName !== '' && <p className="text-white opacity-75 text-sm mt-2 flex items-baseline"><img className="inline mr-2 h-3" src="/images/office.svg" alt="office" /> <span>{companyName}</span></p>}
+        <p className="capitalize text-white opacity-75 text-sm mb-2">{designation}</p>
+        {companyName !== '' && <p className="text-white opacity-75 text-sm flex items-baseline"><img className="inline mr-2 h-3" src="/images/office.svg" alt="office" /> <span>{companyName}</span></p>}
         <p className="text-white opacity-75 text-sm flex items-baseline"><img className="inline mr-2 h-3" src="/images/map-pin.svg" alt="address" /> <span>{locationFull}</span></p>
       </div>
     </>
   if (isForDescription) {
     return (
-      <div className="md:mb-2 sm:mb-5 profile-card">
+      <div className="profile-card mb-2">
         {content}
       </div>
     )
   }
   else {
     return (
-      <AnimationWrapper parentClass="md:mb-2 sm:mb-5 profile-card">
+      <AnimationWrapper parentClass="profile-card mb-2">
         {content}
       </AnimationWrapper>
     )

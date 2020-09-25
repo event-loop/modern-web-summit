@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/index.css'
+import '../styles/index.scss'
 //adding global css.
 import { ApolloProvider } from '@apollo/react-hooks';
 import { createApolloClient } from '../api/client';
