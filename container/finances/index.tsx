@@ -46,7 +46,7 @@ const Finances = (props: VisibleProps) => {
             title="Payment to speakers and curators"
             description="Putting together a talk is a lot of work! We believe that speakers should be paid for their time and expertise. That’s why we are dedicating a large slice of the event’s earning to paying speakers and curators! "
             linkText="Meet our speakers "
-            url="https://www.google.co.in/"
+            url="/#speakers"
             image="/images/20.svg"
             financeImage=""
             parentClass=""

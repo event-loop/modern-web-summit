@@ -125,37 +125,43 @@ export const SpeakerFilters = [
   },
   {
     id: 5,
+    title: 'Indie Hackers',
+    image: '/images/speakerFilter/track-indie-hackers-icon.svg',
+    selected: false
+  },
+  {
+    id: 6,
     title: 'Jamstack',
     image: '/images/speakerFilter/track-jamstack-icon.svg',
     selected: false
   },
   {
-    id: 6,
+    id: 7,
     title: 'Open Source',
     image: '/images/speakerFilter/track-open-source-icon.svg',
     selected: false
   },
   {
-    id: 7,
+    id: 8,
     title: 'react',
     image: '/images/speakerFilter/track-react-icon.svg',
     selected: false
   },
   {
-    id: 8,
+    id: 9,
     title: 'Serverless',
     image: '/images/speakerFilter/track-serverless-icon.svg',
     selected: false
   },
   ,
   {
-    id: 9,
+    id: 10,
     title: 'Svelte',
     image: '/images/speakerFilter/track-svelte.svg',
     selected: false
   },
   {
-    id: 10,
+    id: 11,
     title: 'Vue',
     image: '/images/speakerFilter/track-vue-icon.svg',
     selected: false
@@ -244,7 +250,7 @@ export const links = [
     link: [
       {
         title: 'Request for Sponsorship',
-        url: '',
+        url: 'https://docs.google.com/forms/d/e/1FAIpQLSdpEOR83g1-kORQ35n8jMA9Uwz-SsMroR9-KnmaZlIPriYVrQ/viewform?usp=sf_link',
       },
       // {
       //   title: 'Apply for Scholarship',
@@ -256,7 +262,7 @@ export const links = [
       // },
       {
         title: 'Submit a talk proposal',
-        url: '',
+        url: 'https://docs.google.com/forms/d/e/1FAIpQLSd2mAqQAEs1K8HpTs41XcX7u8CpPx975gJ2VJCjE3bjNb-vzQ/viewform?usp=sf_link',
       },
       {
         title: 'Volunteers',
