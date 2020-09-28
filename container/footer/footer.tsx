@@ -14,12 +14,6 @@ const Footer = (props) => <div className="bg-gray-400 md:p-10 sm:p-5 flex relati
     <div className="md:items-end sm:items-center flex flex-col mt-10 md:mr-12">
       <img className="h-10" src="/images/event-loop-footer.svg" />
       <p className="mt-5 text-gray-200 text-1-2">Copyright 2020 Event Loop, Inc.</p>
-      <div className="flex items-center mt-2">
-        <p className="text-gray-200 text-1-2 mr-2">Deployed with</p>
-        <a href="https://begin.com">
-          <img className="h-6" src="/images/begin.svg" />
-        </a>
-      </div>
       <p className="mt-2 text-gray-200 text-1-2">No 🍪 or 🕵️ here</p>
     </div>
   </div>

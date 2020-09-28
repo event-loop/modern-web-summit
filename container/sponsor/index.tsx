@@ -88,7 +88,9 @@ const Sponsor = (props: VisibleProps) => {
               sponsor the web event of the year</p>
           </AnimationWrapper>
           <AnimationWrapper parentClass="" effect={'fadeIn'}>
-            <button className="animate-btn" type="button">Register Interest</button>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdpEOR83g1-kORQ35n8jMA9Uwz-SsMroR9-KnmaZlIPriYVrQ/viewform">
+              <button className="animate-btn" type="button">Register Interest</button>
+            </a>
           </AnimationWrapper>
         </div>
         <div>

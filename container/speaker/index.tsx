@@ -220,7 +220,9 @@ const Speaker = (props: any) => {
             />
             <div className="text-center">
               <p className="ml-5 uppercase text-xs text-gray-400 font-extrabold">Interested in speaking?</p>
-              <button type="button" className="animate-btn ml-5 mt-1">Submit your talk</button>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSd2mAqQAEs1K8HpTs41XcX7u8CpPx975gJ2VJCjE3bjNb-vzQ/viewform">
+                <button type="button" className="animate-btn ml-5 mt-1">Submit your talk</button>
+              </a>
             </div>
           </div>
         </div>
