@@ -230,7 +230,9 @@ const Speaker = (props: any) => {
         <div className="sm:block lg:hidden p-4 mb-16 w-full">
           {/* <button type="button" className="w-full uppercase border-purple-100 rounded-md text-purple-100 font-black border-2 p-4 text-lg mt-1 focus:outline-none">see all speakers</button> */}
           <p className="text-center uppercase text-xs text-gray-400 font-extrabold">Interested in speaking?</p>
-          <button type="button" className="animate-btn w-full mt-5">Submit your talk</button>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSd2mAqQAEs1K8HpTs41XcX7u8CpPx975gJ2VJCjE3bjNb-vzQ/viewform">
+            <button type="button" className="animate-btn w-full mt-5">Submit your talk</button>
+          </a>
         </div>
       </div>
     </div >)
