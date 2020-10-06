@@ -298,8 +298,8 @@
   },
   {
     "name": "Alex Kyriakidis",
-    "title": "Educator & Web Developer",
-    "company": "VueSchool.io",
+    "title": "Founder & Teacher; Enterprise Consultant",
+    "company": "Vue School",
     "location": "Amsterdam, Netherlands",
     "bio": "",
     "image": "/images/speaker-alex-kyriakidis",
@@ -436,6 +436,28 @@
     "bio": "",
     "image": "/images/speaker-john-samuel",
     "track": "Accessibility",
+    "isFeatured": "",
+    "twitterHandle": ""
+  },
+  {
+    "name": "Henri Helvetica",
+    "title": "Developer",
+    "company": "Freelance",
+    "location": "yyz",
+    "bio": "",
+    "image": "/images/speaker-henri-helvetica",
+    "track": "Jamstack",
+    "isFeatured": "",
+    "twitterHandle": "HenriHelvetica"
+  },
+  {
+    "name": "Guillermo Rauch",
+    "title": "Founder & CEO",
+    "company": "Vercel",
+    "location": "San Francisco, CA",
+    "bio": "",
+    "image": "/images/speaker-guillermo-rauch",
+    "track": "Jamstack",
     "isFeatured": "",
     "twitterHandle": ""
   }
