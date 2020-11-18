@@ -48,7 +48,7 @@ const Home = () => {
         </div>
         {showMenu && <NavMenu menuOpen={menuOpen} />}
         <div className="items-center mr-10 sm:hidden md:flex">
-          <a href="https://twitter.com/mwSummit">
+          <a href="https://twitter.com/ModernWebCon">
             <img className="inline p-2" src="/images/Twitter.svg" alt="logo" />
           </a>
           {/* <a href="https://www.google.co.in/">

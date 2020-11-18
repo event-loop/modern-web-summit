@@ -32,7 +32,7 @@ const Modern = (props) => {
   return (
     <div className="" id="modern" >
       <div className="flex justify-center mb-2">
-        <p className="text-white sm:text-1-2 md:text-xl font-menlo mr-3  ">modern_web_summit$</p>
+        <p className="text-white sm:text-1-2 md:text-xl font-menlo mr-3  ">modern_web_conf$</p>
         {typistVisible && <Typist
           startDelay={200}
           key={key}
@@ -43,7 +43,7 @@ const Modern = (props) => {
       </div>
       {dataVisible && <h5 className="text-lightGreen-200 sm:text-xl md:text-4xl font-menlo animated delay-75s fadeIn">WEB COMMUNITIES TOGETHER</h5>}
       <div className="flex justify-center mb-2 mt-10">
-        {dataVisible && <p className="text-white sm:text-1-2 md:text-xl font-menlo mr-3 animated delay-1s fadeIn ">modern_web_summit$  </p>}
+        {dataVisible && <p className="text-white sm:text-1-2 md:text-xl font-menlo mr-3 animated delay-1s fadeIn ">modern_web_conf$  </p>}
         {typistVisible2 && <Typist
           key={secondKey}
           startDelay={1000}
