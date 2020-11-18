@@ -13,7 +13,7 @@ const CodeOfConduct = () => <>
           <h4 className="text-5xl text-white leading-7 uppercase">Code Of Conduct</h4>
         </div>
         <div className="flex flex-col p-6 lg:pt-20">
-          <h5 className="text-2xl font-extrabold uppercase lg:w-3/4" >{"We take conduct at the Modern web summit very seriously. please take the time to read it!"}</h5>
+          <h5 className="text-2xl font-extrabold uppercase lg:w-3/4" >{"We take conduct at the Modern Web Conf very seriously. please take the time to read it!"}</h5>
           {CodeOfConductList.map((p,i) =>
             <React.Fragment key={i}>
               {p.point && <p className={'text-gray-300 font-extrabold text-1-2 lg:w-3/4'}>{p.point}</p>}

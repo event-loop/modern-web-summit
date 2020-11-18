@@ -1,4 +1,4 @@
-# Modern web Summit
+# Modern Web Conf
 Connecting the world’s top designers and developers to redefine the bounds of possibility through an exciting exploration of cutting-edge technologies, lessons, & patterns.
 
 ### Technologies

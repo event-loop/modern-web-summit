@@ -460,5 +460,16 @@
     "track": "Jamstack",
     "isFeatured": "",
     "twitterHandle": ""
+  },
+  {
+    "name": "Wes Bos",
+    "title": "Engineer & Entrepreneur",
+    "company": "WesBos.com",
+    "location": "Toronto",
+    "bio": "",
+    "image": "/images/speaker-wes-bos",
+    "track": "React",
+    "isFeatured": "",
+    "twitterHandle": ""
   }
 ]

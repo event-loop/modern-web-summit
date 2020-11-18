@@ -18,7 +18,7 @@ const NotifyForm = (props: NotifyFormProps) => {
                     type="button"
                     onClick={() => 
                         (document.location.href =
-                          'https://ti.to/eventloophq/modern-web-summit')
+                          'https://ti.to/eventloophq/modern-web-conference')
                       }>
                     get tickets
                 </button>

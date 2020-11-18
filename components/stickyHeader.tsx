@@ -11,7 +11,7 @@ const StickyHeader = (props) => {
       className="text-black py-1 px-4 md:mr-10 transition-all duration-200 uppercase border-2 border-lightGreen-200 rounded-md text-1-2 font-extrabold bg-lightGreen-200 hover:text-lightGreen-200 hover:bg-black focus:outline-none"
       type="button" onClick={() => 
         (document.location.href =
-          'https://ti.to/eventloophq/modern-web-summit')
+          'https://ti.to/eventloophq/modern-web-conference')
       }>
       get tickets
     </button>

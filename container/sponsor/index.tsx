@@ -23,7 +23,7 @@ const Sponsor = (props: VisibleProps) => {
 
         <div className="flex flex-col px-6 sm:text-center lg:text-left lg:pt-24">
           <h5 className="text-2xl font-extrabold uppercase" >{"Innovation at its Finest"}</h5>
-          <p className="text-gray-300 font-medium text-1-2 lg:w-3/4 sm:w-full">{"APIs & tools that improve the developer experience. Platforms for streamlined collaborative work. Technologies that empower every member of your organization, and make for a better user experience. Sponsors of the Modern Web Summit are building interesting, sustainable, and forward-thinking ideas and services. In addition to providing financial support of the event, Sponsors have their own track for Expo sessions that dive deep into these ideas. From presentations and panels to breakout discussions & workshops, you can get up close with the companies, products, and tools that most interest you."}</p>
+          <p className="text-gray-300 font-medium text-1-2 lg:w-3/4 sm:w-full">{"APIs & tools that improve the developer experience. Platforms for streamlined collaborative work. Technologies that empower every member of your organization, and make for a better user experience. Sponsors of the Modern Web Conf are building interesting, sustainable, and forward-thinking ideas and services. In addition to providing financial support of the event, Sponsors have their own track for Expo sessions that dive deep into these ideas. From presentations and panels to breakout discussions & workshops, you can get up close with the companies, products, and tools that most interest you."}</p>
         </div>
       </div>
 
@@ -35,7 +35,7 @@ const Sponsor = (props: VisibleProps) => {
             descriptionClass=""
             innerClass="lg:w-1/2 sm:w-full pt-10 pb-20"
             description={
-              'APIs & tools that improve the developer experience. Platforms for streamlined collaborative work. Technologies that empower every member of your organization, and make for a better user experience. Sponsors of the Modern Web Summit are building interesting, sustainable, and forward-thinking products and services. In addition to providing financial support of the event, Sponsors have their own track.'}
+              'APIs & tools that improve the developer experience. Platforms for streamlined collaborative work. Technologies that empower every member of your organization, and make for a better user experience. Sponsors of the Modern Web Conf are building interesting, sustainable, and forward-thinking products and services. In addition to providing financial support of the event, Sponsors have their own track.'}
             parentClass="flex justify-center text-center"
             image="/images/flexport.svg"
           />
@@ -101,7 +101,7 @@ const Sponsor = (props: VisibleProps) => {
               descriptionClass=""
               innerClass="sm:w-full lg:w-1/2 pt-10"
               description={
-                'EventLoop is a platform for online-first meetups and conferences. We provide event organizers, speakers, sponsors, and attendees with an unrivaled online event experience. We can’t wait to show you what we’re about at the Modern Web Summit!'}
+                'EventLoop is a platform for online-first meetups and conferences. We provide event organizers, speakers, sponsors, and attendees with an unrivaled online event experience. We can’t wait to show you what we’re about at the Modern Web Conf!'}
               parentClass="flex justify-center text-center"
               image="/images/eventloop-logo.svg"
             />

@@ -22,14 +22,14 @@ const About = (props: VisibleProps) => {
         <div className="flex flex-col p-6 sm:text-center lg:text-left lg:pt-24">
           <h5 className="text-2xl font-extrabold uppercase" >{"the modern web is constantly evolving"}</h5>
           <p className="text-gray-300 font-medium text-1-2 md:w-full sm:w-full">{"Each one of us have contributed to the modern web in our own way. We discover technologies that solve our problems (and perhaps inspire us), join a community, and get to work. We share our experience with our coworkers, colleagues, and online network. But there is much more to the web community than our own little islands."}</p>
-          <p className="text-gray-300 font-medium text-1-2 md:w-full sm:w-full pt-8">{"The Modern Web Summit not only to provides you with in-depth knowledge about the technologies you’re currently working with, but also exposes you to new ways of thinking and approaches from adjacent communities. You’ll learn from thought-leaders in your community and beyond, and connect with like-minded individuals with unique, thought-provoking perspectives. "}</p>
+          <p className="text-gray-300 font-medium text-1-2 md:w-full sm:w-full pt-8">{"The Modern Web Conf not only to provides you with in-depth knowledge about the technologies you’re currently working with, but also exposes you to new ways of thinking and approaches from adjacent communities. You’ll learn from thought-leaders in your community and beyond, and connect with like-minded individuals with unique, thought-provoking perspectives. "}</p>
         </div>
       </div>
       <div className="flex flex-wrap lg:mt-6 lg:px-24">
         <AnimationWrapper parentClass="md:w-3/5 sm:w-full md:p-10 sm:p-5">
           <p className="text-2xl uppercase text-black font-extrabold">More than just a livestream</p>
           <p className="text-gray-300 font-medium text-1-2 sm:w-full pt-4">{"Let’s face it: a livestream of talks is not a real conference. There is so much more to a conference than the presentations, and the online events we’ve seen in 2020 simply don’t achieve a true conference experience."}</p>
-          <p className="text-gray-300 font-medium text-1-2 sm:w-full pt-8">{"The Modern Web Summit is different. It takes place on a new, revolutionary events platform called EventLoop -- a web app that’s purpose-built for online meetups and conferences. It provides attendees, speakers, and sponsors alike with an all-encompassing experience that inspires and facilitates true connections between people.  "}</p>
+          <p className="text-gray-300 font-medium text-1-2 sm:w-full pt-8">{"The Modern Web Conf is different. It takes place on a new, revolutionary events platform called EventLoop -- a web app that’s purpose-built for online meetups and conferences. It provides attendees, speakers, and sponsors alike with an all-encompassing experience that inspires and facilitates true connections between people.  "}</p>
         </AnimationWrapper>
         <AnimationWrapper parentClass="md:w-2/5 sm:w-full sm:p-5 md:pt-24">
           <img src="/images/mws_plus_eventloop.svg" />
@@ -107,7 +107,7 @@ const About = (props: VisibleProps) => {
           <AboutDescription
             image="/images/activities-icon.svg"
             title="Activities"
-            firstDescription="Are you the type of person who likes hands-on activities at events? Then you’re going to love the Modern Web Summit! We’ll have a number of fun activities throughout the event: From active competitions that test your web dev skills (for prizes), to fun networking activities that help you to meet new friends -- we’ll be getting creative and competitive. "
+            firstDescription="Are you the type of person who likes hands-on activities at events? Then you’re going to love the Modern Web Conf! We’ll have a number of fun activities throughout the event: From active competitions that test your web dev skills (for prizes), to fun networking activities that help you to meet new friends -- we’ll be getting creative and competitive. "
             secondDescription=""
             parentClass=""
             url=""
@@ -119,7 +119,7 @@ const About = (props: VisibleProps) => {
             image="/images/jobs-icon.svg"
             title="Hiring Mixer"
             firstDescription="The current crisis has put a lot of stress on individuals and companies. But many companies are still hiring, including our sponsors!"
-            secondDescription="Join us at the Modern Web Summit hiring mixer, where you’ll choose which companies you’re interested in sending your information, and companies will follow up via email or schedule a video meeting. "
+            secondDescription="Join us at the Modern Web Conf hiring mixer, where you’ll choose which companies you’re interested in sending your information, and companies will follow up via email or schedule a video meeting. "
             parentClass=""
             url="https://www.google.co.in/"
             // linkText="LEARN MORE ABOUT THE HIRING MIXER "
