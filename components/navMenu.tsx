@@ -11,6 +11,7 @@ const NavMenu = (props: any) => {
   const linkClass = "text-1-2 text-gray-300 font-medium hover:text-blue-100"
   const textClass = 'text-1-2 text-gray-300 font-medium'
   const modalRef = useRef(null);
+  const startFocus = useRef(null);
 
   const handleTabKey = e => {
     const focusableModalElements = modalRef.current.querySelectorAll(focusableModalElementTypes);
@@ -36,9 +37,9 @@ const NavMenu = (props: any) => {
     }
   }, [])
   useEffect(() => {
-    // when the modal is open move keyboard focus inside
-    modalRef.current.focus();
-  }, [modalRef]);
+    // when the modal is open, move keyboard focus to the first interactive menu item.
+    startFocus.current.focus();
+  }, [startFocus]);
   useEffect(() => {
     function keyListener(e) {
       const listener = keyListeners[e.keyCode];
@@ -55,7 +56,7 @@ const NavMenu = (props: any) => {
         <input type="image" alt="close menu" src="/images/close.svg" className="sm:hidden md:inline cursor-pointer" onClick={menuOpen} />
         <input type="image" alt="close menu" src="/images/close-white.svg" className="md:hidden sm:inline cursor-pointer" onClick={menuOpen} />
       </div>
-      <div className="flex sm:flex-wrap md:flex-no-wrap md:w-3/5 sm:w-full mx-auto md:my-10 sm:my-5 sm:pb-40 md:pb-0 overflow-auto max-h-full-100">
+      <div role="dialog" aria-label="navigation menu" aria-modal="true" className="flex sm:flex-wrap md:flex-no-wrap md:w-3/5 sm:w-full mx-auto md:my-10 sm:my-5 sm:pb-40 md:pb-0 overflow-auto max-h-full-100">
         <div className="md:w-2/5 sm:w-full sm:mx-5 md:mx-0">
           {/* <p><Link href="/term-service"><a className={linkClass} >Terms of Service</a></Link> </p> */}
           {/* <p><Link href="/privacy-policy"><a className={linkClass} >Privacy Policy</a></Link></p> */}
@@ -73,9 +74,10 @@ const NavMenu = (props: any) => {
           <p className={textClass}>Schedule - coming soon</p>
         </div>
         <div className="md:w-1/2 sm:w-full flex flex-col mx-5 sm:order-first md:order-none">
-          {buttonList.map(b => <>
+          {buttonList.map((b, i) => <>
             <Link href={`/${b.pageName !== '' ? `#${b.pageName}` : ''}`}>
               <a
+                ref={ i ? null : startFocus}
                 onClick={() => menuOpen()}
                 className={buttonClass}
                 >
