@@ -28,7 +28,7 @@ const NavMenu = (props: any) => {
   };
 
   // 27 is Escape key, if pressed, toggle the modal closed
-  const keyListenersMap = new Map([[27, menuOpen], [9, handleTabKey]]);
+  const keyListeners = {27: menuOpen, 9: handleTabKey};
   useEffect(() => {
     document.body.classList.add('overflow-hidden');
     return () => {
@@ -41,7 +41,7 @@ const NavMenu = (props: any) => {
   }, [modalRef]);
   useEffect(() => {
     function keyListener(e) {
-      const listener = keyListenersMap.get(e.keyCode);
+      const listener = keyListeners[e.keyCode];
       return listener && listener(e);
     }
     document.addEventListener("keydown", keyListener);
