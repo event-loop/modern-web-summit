@@ -15,8 +15,7 @@ const NotifyForm = (props: NotifyFormProps) => {
             {!showForm &&
                 <a
                     className={`custom-btn inline-block transition-all duration-300 hover:bg-gray-400 hover:text-lightGreen-200 md:px-6 sm:px-4${buttonClass}`}
-                    href="https://ti.to/eventloophq/modern-web-conference"
-                        >
+                    href="https://ti.to/eventloophq/modern-web-conference">
                     get tickets
                 </a> 
                 || <div className="flex sm:flex-wrap md:flex-no-wrap sm:p-4 md:p-0">
