@@ -13,15 +13,12 @@ const NotifyForm = (props: NotifyFormProps) => {
     return (
         <div>
             {!showForm &&
-                <button
-                    className={`custom-btn transition-all duration-300 hover:bg-gray-400 hover:text-lightGreen-200 md:px-6 sm:px-4 focus:outline-none ${buttonClass}`}
-                    type="button"
-                    onClick={() => 
-                        (document.location.href =
-                          'https://ti.to/eventloophq/modern-web-conference')
-                      }>
+                <a
+                    className={`custom-btn inline-block transition-all duration-300 hover:bg-gray-400 hover:text-lightGreen-200 md:px-6 sm:px-4${buttonClass}`}
+                    href="https://ti.to/eventloophq/modern-web-conference"
+                        >
                     get tickets
-                </button>
+                </a> 
                 || <div className="flex sm:flex-wrap md:flex-no-wrap sm:p-4 md:p-0">
                     <input
                         className="py-2 px-6 md:mr-2 sm:w-full md:w-auto sm:mb-4 md:mb-0 flex-grow border-solid border-2 text-xl border-black focus:outline-none"
