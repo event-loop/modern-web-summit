@@ -105,7 +105,6 @@ const Speaker = (props: any) => {
           <p className="text-gray-300 font-medium text-1-2 lg:w-5/6 sm:w-full ">{"Whether you’re interested in learning a new technology or advancing your skills in a familiar stack, there’s something for everyone at the Modern Web Conf."}</p>
         </div>
       </div>
-
       <div className="relative flex sm:flex-wrap lg:flex-no-wrap lg:pl-40 md:p-10 sm:p-0">
         <div className="sticky top-56 sm:block lg:hidden w-full z-50 bg-white pl-4 py-1">
           <SpeakerFilter
@@ -214,10 +213,11 @@ const Speaker = (props: any) => {
         <div className="flex-col mb-2 sm:w-full lg:w-1/5 lg:mt-32 sm:hidden lg:flex">
           <div className="sticky top-100">
             <p className="uppercase text-1-2 text-center font-extrabold sm:hidden lg:block">refine by track</p>
+            <p aria-live="polite" className="sr-only">Speakers Displayed: {speakerFilteredList.length}</p>
             <SpeakerFilter
               onClick={handleFilterClick}
               filterList={filters}
-            />
+            />            
             <div className="text-center">
               <p className="ml-5 uppercase text-xs text-gray-400 font-extrabold">Interested in speaking?</p>
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSd2mAqQAEs1K8HpTs41XcX7u8CpPx975gJ2VJCjE3bjNb-vzQ/viewform">
@@ -227,6 +227,7 @@ const Speaker = (props: any) => {
           </div>
         </div>
         <p className="uppercase lg:absolute lg:bottom-0 lg:mb-5 sm:mt-5 lg:mt-0 sm:mx-auto text-xl text-gray-400 font-semibold">more speakers to be announced soon!</p>
+        
         <div className="sm:block lg:hidden p-4 mb-16 w-full">
           {/* <button type="button" className="w-full uppercase border-purple-100 rounded-md text-purple-100 font-black border-2 p-4 text-lg mt-1 focus:outline-none">see all speakers</button> */}
           <p className="text-center uppercase text-xs text-gray-400 font-extrabold">Interested in speaking?</p>
