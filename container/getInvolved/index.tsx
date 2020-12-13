@@ -47,10 +47,10 @@ const GetInvolved = (props: VisibleProps) => {
     <div className={`bg-white shadow-xs opacity-0  ${className}`}>
       <div className="flex sm:flex-wrap lg:flex-no-wrap">
         <div className="bg-black lg:w-23 sm:w-full sm:flex-none lg:flex-23 h-32 flex items-end self-start justify-center">
-          <h4 className="text-5xl text-white leading-7 uppercase">GET INVOLVED</h4>
+          <h2 className="text-5xl text-white leading-7 uppercase">GET INVOLVED</h2>
         </div>
         <div className="flex flex-col p-6 sm:text-center lg:text-left lg:pt-24">
-          <h5 className="text-2xl font-extrabold uppercase" >{"Want to get more involved?"}</h5>
+          <h3 className="text-2xl font-extrabold uppercase" >{"Want to get more involved?"}</h3>
           <p className="text-gray-300 font-medium text-1-2 lg:w-3/4 sm:w-full">
             {"We’re looking for committed people who are excited about community events, networking, and love geeking out on web dev and design!"}</p>
         </div>

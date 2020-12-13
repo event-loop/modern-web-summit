@@ -68,6 +68,7 @@ const Home = () => {
           <img className="inline self-start -ml-5 animated fadeInDownBig slow" src="/images/left-bar-2.svg" alt="logo" />
           <img className="inline self-start -ml-5 animated fadeInDownBig slower" src="/images/left-bar-3.svg" alt="logo" />
         </div>
+        <h1 className="sr-only">Modern Web Conf - March 22-26, 2021</h1>
         <div className='md:w-2/4 sm:w-full mx-auto text-center md:-mt-10 sm:mt-0 flex flex-col'>
           <Logo />
           <p className='text-gray-300 font-medium text-1-2 md:mb-5 sm:p-5 md:p-0'>

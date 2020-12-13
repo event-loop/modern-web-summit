@@ -20,10 +20,10 @@ const Curators = (props: any) => {
     <div className={`bg-white shadow-xs opacity-0  ${className} lg:pb-10 `}>
       <div className="flex sm:flex-wrap lg:flex-no-wrap">
         <div className="bg-black lg:w-23 sm:w-full sm:flex-none lg:flex-23 h-32 flex items-end self-start justify-center">
-          <h4 className="text-5xl text-white leading-7 uppercase">Curators</h4>
+          <h2 className="text-5xl text-white leading-7 uppercase">Curators</h2>
         </div>
         <div className="flex flex-col p-6 sm:text-center lg:text-left lg:pt-24">
-          <h5 className="text-2xl font-extrabold uppercase" >{"expert talk selection"}</h5>
+          <h3 className="text-2xl font-extrabold uppercase" >{"expert talk selection"}</h3>
           <p className="text-gray-300 font-medium text-1-2 lg:w-4/6 sm:w-full">{"We’ve assembled a team of experts well-known for their knowledge in and contributions to their industry & specialization. Track curators also work together to select the general session keynotes!"}</p>
         </div>
       </div>

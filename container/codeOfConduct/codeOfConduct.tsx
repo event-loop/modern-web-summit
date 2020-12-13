@@ -10,10 +10,10 @@ const CodeOfConduct = () => <>
     <div className={`bg-white shadow-xs`}>
       <div className="flex sm:flex-wrap lg:flex-no-wrap">
         <div className="bg-black lg:w-23 sm:w-full sm:flex-none lg:flex-23 h-32 flex items-end self-start justify-center">
-          <h4 className="text-5xl text-white leading-7 uppercase">Code Of Conduct</h4>
+          <h2 className="text-5xl text-white leading-7 uppercase">Code Of Conduct</h2>
         </div>
         <div className="flex flex-col p-6 lg:pt-20">
-          <h5 className="text-2xl font-extrabold uppercase lg:w-3/4" >{"We take conduct at the Modern Web Conf very seriously. please take the time to read it!"}</h5>
+          <h3 className="text-2xl font-extrabold uppercase lg:w-3/4" >{"We take conduct at the Modern Web Conf very seriously. please take the time to read it!"}</h3>
           {CodeOfConductList.map((p,i) =>
             <React.Fragment key={i}>
               {p.point && <p className={'text-gray-300 font-extrabold text-1-2 lg:w-3/4'}>{p.point}</p>}
