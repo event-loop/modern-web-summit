@@ -14,8 +14,8 @@ const AboutDescription = (props: any) => {
 
   return (
     <div className={parentClass}>
-      <img src={image} />
-      <p className="text-2xl uppercase text-black font-extrabold mb-2" >{title}</p>
+      <img src={image} alt="" />
+      <h4 className="text-2xl uppercase text-black font-extrabold mb-2" >{title}</h4>
       <AnimationWrapper effect={'fadein'} parentClass="">
         <p className="text-gray-300 font-medium text-1-2 sm:w-full mb-8">{firstDescription}</p>
         {secondDescription && <p className="text-gray-300 font-medium text-1-2 sm:w-full mb-8">{secondDescription}</p>}

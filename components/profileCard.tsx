@@ -11,7 +11,7 @@ const ProfileCard = (props: ProfileCardProps) => {
       {!isForDescription ? <div className="h-32 flex items-center justify-center cursor-pointer bg-lightGreen-200 hover:bg-lightGreen-100">
         <p className="text-lg text-black font-bold tracking-wide uppercase">See all speakers {'>'}</p>
       </div> : <div className="bg-gray-400 p-5">
-          <h5 className="text-white uppercase text-1-2">{name}</h5>
+          <h3 className="text-white uppercase text-1-2">{name}</h3>
           <p className="capitalize text-white opacity-75 text-sm mb-2">{designation}</p>
           {companyName !== '' && <p className="text-white opacity-75 text-sm flex items-baseline"><img className="inline mr-2 h-3" src="/images/office.svg" alt="office" /> <span>{companyName}</span></p>}
           <p className="text-white opacity-75 text-sm flex items-baseline"><img className="inline mr-2 h-3" src="/images/map-pin.svg" alt="address" /> <span>{locationFull}</span></p>
@@ -21,7 +21,7 @@ const ProfileCard = (props: ProfileCardProps) => {
     <>
       <img src={imageUrl} alt="image" className={`w-full ${imageClass}`} />
       <div className="bg-gray-400 p-5">
-        <h5 className="text-white uppercase text-1-2">{name}</h5>
+        <h4 className="text-white uppercase text-1-2">{name}</h4>
         <p className="capitalize text-white opacity-75 text-sm mb-2">{designation}</p>
         {companyName !== '' && <p className="text-white opacity-75 text-sm flex items-baseline"><img className="inline mr-2 h-3" src="/images/office.svg" alt="office" /> <span>{companyName}</span></p>}
         <p className="text-white opacity-75 text-sm flex items-baseline"><img className="inline mr-2 h-3" src="/images/map-pin.svg" alt="address" /> <span>{locationFull}</span></p>

@@ -41,7 +41,7 @@ const Modern = (props) => {
           git pull
         </Typist>}
       </div>
-      {dataVisible && <h5 className="text-lightGreen-200 sm:text-xl md:text-4xl font-menlo animated delay-75s fadeIn">WEB COMMUNITIES TOGETHER</h5>}
+      {dataVisible && <p className="text-lightGreen-200 sm:text-xl md:text-4xl font-menlo animated delay-75s fadeIn">WEB COMMUNITIES TOGETHER</p>}
       <div className="flex justify-center mb-2 mt-10">
         {dataVisible && <p className="text-white sm:text-1-2 md:text-xl font-menlo mr-3 animated delay-1s fadeIn ">modern_web_conf$  </p>}
         {typistVisible2 && <Typist
@@ -52,7 +52,7 @@ const Modern = (props) => {
           git push
         </Typist>}
       </div>
-      {dataVisible && <h5 className="text-lightGreen-200 sm:text-xl md:text-4xl font-menlo animated delay-3s fadeIn">THE BOUNDS OF POSSIBILITY</h5>}
+      {dataVisible && <p className="text-lightGreen-200 sm:text-xl md:text-4xl font-menlo animated delay-3s fadeIn">THE BOUNDS OF POSSIBILITY</p>}
     </div >
   )
 }

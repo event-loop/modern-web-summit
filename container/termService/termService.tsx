@@ -10,10 +10,10 @@ const TermService = () => {
         <div className={`bg-white shadow-xs`}>
           <div className="flex sm:flex-wrap lg:flex-no-wrap">
             <div className="bg-black lg:w-23 sm:w-full sm:flex-none lg:flex-23 h-32 flex items-end self-start justify-center">
-              <h4 className="text-2-8 text-white leading-6 uppercase">Terms of service</h4>
+              <h2 className="text-2-8 text-white leading-6 uppercase">Terms of service</h2>
             </div>
             <div className="flex flex-col p-6 lg:pt-24">
-              <h5 className="text-2xl font-extrabold uppercase" >{"Terms of service PlaceHolder"}</h5>
+              <h3 className="text-2xl font-extrabold uppercase" >{"Terms of service PlaceHolder"}</h3>
               {privacyPolicyList.map((p, i) =>
                 <React.Fragment key={i}>
                   <p className={'text-gray-300 font-medium text-1-2 lg:w-3/4 sm:w-full'}>{p}</p>

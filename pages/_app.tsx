@@ -12,6 +12,7 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <>
     <Head>
+      <title>Modern Web Conf</title>
       {Metas.map((m, i) => <React.Fragment key={i}>{m}</React.Fragment>)}
     </Head>
     <ApolloProvider client={client}>
