@@ -2,7 +2,7 @@ import React from 'react'
 import NotifyForm from '../../components/notify'
 import FooterLink from '../../components/footerLinks'
 
-const Footer = (props) => <div className="bg-gray-400 md:p-10 sm:p-5 flex relative flex-wrap">
+const Footer = (props) => <footer className="bg-gray-400 md:p-10 sm:p-5 flex relative flex-wrap">
   <div className="lg:w-2/5 md:w-1/2 sm:w-full justify-center text-center flex-col flex">
     <img className="md:h-20 sm:h-24" src="/images/mws-logo.svg" />
     <div className="mt-10 sm:mb-5 md:mb-0 flex justify-center">
@@ -17,6 +17,6 @@ const Footer = (props) => <div className="bg-gray-400 md:p-10 sm:p-5 flex relati
       <p className="mt-2 text-gray-200 text-1-2">No 🍪 or 🕵️ here</p>
     </div>
   </div>
-</div>
+</footer>
 
 export default Footer

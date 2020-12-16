@@ -7,7 +7,7 @@ const FooterLink = (props) => {
   const textClass = "pr-2 text-white md:text-opacity-50 sm:text-opacity-1 text-base font-medium"
 
   return (
-    <div className="flex flex-wrap">
+    <nav className="flex flex-wrap">
       {links.map(({ link }, index) => <div key={index} className="lg:w-1/4 sm:w-1/2 sm:mb-10 md:mb-0">
         {link.map((linkData, i) => <div key={i}>
           {linkData.url !== "" && <Link href={linkData.url}>
@@ -20,7 +20,7 @@ const FooterLink = (props) => {
         )}
       </div>
       )}
-    </div>
+    </nav>
   )
 }
 
