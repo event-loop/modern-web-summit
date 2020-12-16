@@ -57,11 +57,12 @@ const Home = () => {
           <a href="https://github.com/event-loop/modern-web-summit">
             <img className="inline p-2" src="/images/github.svg" alt="logo" />
           </a>
-        </div>
+        </div>   
+        {displayMenu &&
+          <StickyHeader menuOpen={() => menuOpen()} />
+        }
       </header>
-      {displayMenu &&
-        <StickyHeader menuOpen={() => menuOpen()} />
-      }
+   
       <main>
         <div id='home' className='bg-white flex shadow-xs md:h-100-5 sm:h-auto sm:m-0 md:m-10 main-wrap'>
           <div className="sm:hidden md:flex -mt-10 left-bar">
