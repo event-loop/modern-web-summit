@@ -101,7 +101,7 @@ const Sponsor = (props: VisibleProps) => {
               descriptionClass=""
               innerClass="sm:w-full lg:w-1/2 pt-10"
               description={
-                'EventLoop is a platform for online-first meetups and conferences. We provide event organizers, speakers, sponsors, and attendees with an unrivaled online event experience. We can’t wait to show you what we’re about at the Modern Web Conf!'}
+                'EventLoop is a platform for online-first meetings and conferences. We provide event organizers, speakers, sponsors, and attendees with an unrivaled online event experience. We can’t wait to show you what we’re about at the Modern Web Conf!'}
               parentClass="flex justify-center text-center"
               image="/images/eventloop-logo.svg"
             />

@@ -29,7 +29,7 @@ const About = (props: VisibleProps) => {
         <AnimationWrapper parentClass="md:w-3/5 sm:w-full md:p-10 sm:p-5">
           <p className="text-2xl uppercase text-black font-extrabold">More than just a livestream</p>
           <p className="text-gray-300 font-medium text-1-2 sm:w-full pt-4">{"Let’s face it: a livestream of talks is not a real conference. There is so much more to a conference than the presentations, and the online events we’ve seen in 2020 simply don’t achieve a true conference experience."}</p>
-          <p className="text-gray-300 font-medium text-1-2 sm:w-full pt-8">{"The Modern Web Conf is different. It takes place on a new, revolutionary events platform called EventLoop -- a web app that’s purpose-built for online meetups and conferences. It provides attendees, speakers, and sponsors alike with an all-encompassing experience that inspires and facilitates true connections between people.  "}</p>
+          <p className="text-gray-300 font-medium text-1-2 sm:w-full pt-8">{"The Modern Web Conf is different. It takes place on a new, revolutionary events platform called EventLoop -- a web app that’s purpose-built for online meetings and conferences. It provides attendees, speakers, and sponsors alike with an all-encompassing experience that inspires and facilitates true connections between people.  "}</p>
         </AnimationWrapper>
         <AnimationWrapper parentClass="md:w-2/5 sm:w-full sm:p-5 md:pt-24">
           <img src="/images/mws_plus_eventloop.svg" />
@@ -41,7 +41,7 @@ const About = (props: VisibleProps) => {
           <AboutDescription
             image="/images/keynotes-icon.svg"
             title="General Session Keynotes"
-            firstDescription="Hear from some of the world’s foremost experts in our opening & closing keynotes each day. Their talk subjects will be of relevance to everyone across all tracks! "
+            firstDescription="Hear from some of the world’s foremost experts in our opening &amp; closing keynotes each day. Their talk subjects will be of relevance to everyone across all tracks! "
             secondDescription=""
             parentClass=""
             url="https://www.google.co.in/"
@@ -61,20 +61,9 @@ const About = (props: VisibleProps) => {
         </AnimationWrapper>
         <AnimationWrapper parentClass="md:w-1/2 sm:w-full md:p-10 md:pt-0 sm:p-5">
           <AboutDescription
-            image="/images/breakouts-icon.svg"
-            title="Discussion Breakouts & topic tables"
-            firstDescription="With moderated & open discussion breakouts, you’ll connect with others around a specific subject. Browse a wide variety of open discussions happening now, or add upcoming discussion sessions to your calendar."
-            secondDescription="With discussion sessions, you can participate in a number of ways: passively watch and listen, engage with the discussion group via the in-app chat room, or join the video discussion to get face-time with your fellow attendees and speakers!  "
-            parentClass=""
-            url="https://www.google.co.in/"
-            // linkText="See all the SCHEDULED DISCUSSION BREAKOUTS "
-          />
-        </AnimationWrapper>
-        <AnimationWrapper parentClass="md:w-1/2 sm:w-full md:p-10 md:pt-0 sm:p-5">
-          <AboutDescription
             image="/images/meetings-icon.svg"
             title="Meet and connect with other professionals"
-            firstDescription="With EventLoop, you have many opportunities to meet up with new and old friends alike. You’ll be able to chat in-app (as opposed to a third-party app), see custom profiles of other attendees and connect with them, and even initiate/receive video meeting requests from  right inside the app. Once accepted, it’s added to your calendar, and you’ll receive a notification before the meeting! You’ll meet within the app so you don’t need to worry about managing other applications.  "
+            firstDescription="With EventLoop, you have many opportunities to meet up with new and old friends alike. You’ll be able to chat in-app (as opposed to a third-party app), see custom profiles of other attendees and connect with them, and even follow the speakers, companies, and your fellow attenees to stay connected and in the loop!"
             secondDescription=""
             parentClass=""
             url=""
@@ -86,7 +75,7 @@ const About = (props: VisibleProps) => {
             image="/images/workshops-icon.svg"
             title="Workshops"
             firstDescription="From beginner to advanced, taking place over a few hours to two days, we have the workshop for you. Featuring instructors renowned for their contributions and educating abilities, across all tracks, you can choose the workshop that is most interesting and valuable to you."
-            secondDescription="The Full Access ticket includes access to the daily Mini Workshops. Full Day & 2-day Workshops are sold separately from the conference."
+            secondDescription="The Full Access ticket includes access to the daily Mini Workshops. Full Day &amp; 2-day Workshops are sold separately from the conference."
             parentClass=""
             url="https://www.google.co.in/"
             // linkText="See all the workshops available  "
@@ -101,17 +90,6 @@ const About = (props: VisibleProps) => {
             parentClass=""
             url="https://www.google.co.in/"
             // linkText="See all of our sponsors "
-          />
-        </AnimationWrapper>
-        <AnimationWrapper parentClass="md:w-1/2 sm:w-full md:p-10 md:pt-0 sm:p-5">
-          <AboutDescription
-            image="/images/activities-icon.svg"
-            title="Activities"
-            firstDescription="Are you the type of person who likes hands-on activities at events? Then you’re going to love the Modern Web Conf! We’ll have a number of fun activities throughout the event: From active competitions that test your web dev skills (for prizes), to fun networking activities that help you to meet new friends -- we’ll be getting creative and competitive. "
-            secondDescription=""
-            parentClass=""
-            url=""
-            // linkText=""
           />
         </AnimationWrapper>
         <AnimationWrapper parentClass="md:w-1/2 sm:w-full md:p-10 md:pt-0 sm:p-5">
