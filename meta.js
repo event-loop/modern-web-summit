@@ -3,7 +3,7 @@ const meta = [
   <meta content='Modern Web Conf' name='og:title' />,
   <meta
     content={
-      'March 21 - 26, 2021. 5 days, 10 tracks, 100+ sessions. ' +
+      'May 17 - 28, 2021. 10 days, 10 tracks, 100+ sessions. ' +
       'An online conference that\'s more than just a livestream. ' +
       'Learn & connect with other web designers & developers in an ' +
       'exciting exploration of cutting-edge technologies, lessons, & patterns. '
@@ -22,7 +22,7 @@ const meta = [
   <meta content='Modern Web Conf' name='twitter:title' />,
   <meta
     content={
-      'March 21 - 26, 2021. 5 days, 10 tracks, 100+ sessions. ' +
+      'May 17 - 28, 2021. 10 days, 10 tracks, 100+ sessions. ' +
       'An online conference that\'s more than just a livestream. ' +
       'Learn & connect with other web designers & developers in an ' +
       'exciting exploration of cutting-edge technologies, lessons, & patterns. '
