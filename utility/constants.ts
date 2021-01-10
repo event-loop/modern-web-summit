@@ -143,7 +143,7 @@ export const SpeakerFilters = [
   },
   {
     id: 8,
-    title: 'react',
+    title: 'React',
     image: '/images/speakerFilter/track-react-icon.svg',
     selected: false
   },

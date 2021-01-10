@@ -468,7 +468,7 @@
     "location": "Toronto",
     "bio": "",
     "image": "/images/speaker-wes-bos",
-    "track": "react",
+    "track": "React",
     "isFeatured": "",
     "twitterHandle": "wesbos"
   },
@@ -534,7 +534,7 @@
     "location": "New York, NY",
     "bio": "",
     "image": "/images/speaker-faraz-ahmad",
-    "track": "react",
+    "track": "React",
     "isFeatured": "",
     "twitterHandle": "farazamiruddin"
   }
