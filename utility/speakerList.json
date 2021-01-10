@@ -402,7 +402,7 @@
     "location": "New York NY",
     "bio": "",
     "image": "/images/speaker-myles-borins",
-    "track": "",
+    "track": "Open Source",
     "isFeatured": "",
     "twitterHandle": "MylesBorins"
   },
@@ -459,7 +459,7 @@
     "image": "/images/speaker-guillermo-rauch",
     "track": "Jamstack",
     "isFeatured": "",
-    "twitterHandle": ""
+    "twitterHandle": "rauchg"
   },
   {
     "name": "Wes Bos",
@@ -468,8 +468,74 @@
     "location": "Toronto",
     "bio": "",
     "image": "/images/speaker-wes-bos",
-    "track": "React",
+    "track": "react",
     "isFeatured": "",
-    "twitterHandle": ""
+    "twitterHandle": "wesbos"
+  },
+  {
+    "name": "Cassidy Williams",
+    "title": "Principal Developer Experience Engineer",
+    "company": "Netlify",
+    "location": "Chicago, Il",
+    "bio": "Cassidy is a Principal Developer Experience Engineer for Netlify. She's worked for React Training, CodePen, Amazon, Venmo, and more, and she's had the honor of working with various non-profit organizations, including cKeys and Hacker Fund as their Director of Outreach. She's active in the developer community and one of Glamour Magazine's 35 Women Under 35 Changing the Tech Industry and LinkedIn's Top Professionals 35 & Under. As an avid speaker, Cassidy has participated in several events including the Grace Hopper Celebration for Women in Computing, TEDx, the United Nations, and the U.S.A. Science and Engineering Festival. She wants to inspire generations of STEM students to be the best they can be, and her favorite quote is from Helen Keller: 'One can never consent to creep when one feels an impulse to soar.' She loves mechanical keyboards and karaoke.",
+    "image": "/images/speaker-cassidy-williams",
+    "track": "Jamstack",
+    "isFeatured": "",
+    "twitterHandle": "cassidoo"
+  },
+  {
+    "name": "Steph Smith",
+    "title": "Head of Trends",
+    "company": "The Hustle",
+    "location": "Encinitas, CA",
+    "bio": "Steph has been working remotely for over three years, as a growth marketer, writer, and indie maker. She spent three years at Toptal (most recently leading their Publications team), and is now the Head of Trends at The Hustle. She is a self-taught developer that has built multiple projects, including some that have topped Product Hunt, leading to a nomination for Maker of the Year in 2018. She also has a personal blog that has been read half a million people since launching last year, touching on topics including remote work, productivity, and tech. Most recently, she wrote a book Doing Content Right, that sold nearly 2000 copies in its first two months.",
+    "image": "/images/speaker-steph-smith",
+    "track": "Indie Hackers",
+    "isFeatured": "",
+    "twitterHandle": "stephsmithio"
+  },
+  {
+    "name": "Justin Jackson",
+    "title": "Co-founder",
+    "company": "Transistor.fm",
+    "location": "Vernon, BC",
+    "bio": "I’ve been working with SaaS companies since 2008. I was the Product Manager at Sprintly and Mailout, and have consulted on marketing & growth for startups in London, San Francisco, Boulder, and Portland. In 2018, I co-founded Transistor.fm, a podcast hosting platform, with my friend Jon Buda. By 2019, we were both working full-time at the company.",
+    "image": "/images/speaker-justin-jackson",
+    "track": "Indie Hackers",
+    "isFeatured": "",
+    "twitterHandle": "mijustin"
+  },
+  {
+    "name": "Amy Hoy",
+    "title": "Founder; Co-founder",
+    "company": "Noko Time Tracking; Stacking the Bricks",
+    "location": "Tucson, AZ",
+    "bio": "",
+    "image": "/images/speaker-amy-hoy",
+    "track": "Indie Hackers",
+    "isFeatured": "",
+    "twitterHandle": "amyhoy"
+  },
+  {
+    "name": "Alex Hillman",
+    "title": "Founder; Co-founder",
+    "company": "Indie Hall; Stacking the Bricks",
+    "location": "Philadelphia, PA",
+    "bio": "",
+    "image": "/images/speaker-alex-hillman",
+    "track": "Indie Hackers",
+    "isFeatured": "",
+    "twitterHandle": "alexhillman"
+  },
+  {
+    "name": "Faraz Ahmad",
+    "title": "Software Engineer",
+    "company": "Uber Eats",
+    "location": "New York, NY",
+    "bio": "",
+    "image": "/images/speaker-faraz-ahmad",
+    "track": "react",
+    "isFeatured": "",
+    "twitterHandle": "farazamiruddin"
   }
 ]
