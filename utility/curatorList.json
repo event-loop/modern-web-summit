@@ -72,18 +72,6 @@
     "twitterURL": ""
   },
   {
-    "name": "Jen Looper",
-    "title": "Cloud Developer Advocate Lead",
-    "company": "Microsoft",
-    "location": "Wellesley, MA",
-    "bio": "Jen Looper is a Google Developer Expert and a Cloud Developer Advocate Lead at Microsoft on the Academic Team with over 20 years' experience as a web and mobile developer, specializing in creating cross-platform mobile and web apps. She's a multilingual multiculturalist with a passion for hardware hacking, mobile apps, Vue.js, machine learning and discovering new things every day. With a PhD in medieval French literature, Jen's area of focus is currently in applied machine learning, applying new techniques to rediscover ancient artifacts. She is the founder and CEO of Front-End Foxes, an international nonprofit charity that promotes diversity in front-end developer communities. Visit Front-End Foxes Inc at https://www.frontendfoxes.org. Visit Jen's personal site at https://www.jenlooper.com, or via Twitter @jenlooper.",
-    "image": "/images/curator-jen-looper.jpg",
-    "track": "Vue",
-    "allLink": "See all the Vue Speakers ",
-    "isFeatured": "",
-    "twitterURL": ""
-  },
-  {
     "name": "Maria lamardo",
     "title": "Sr. Accessibility Designer",
     "company": "CVS Health",
