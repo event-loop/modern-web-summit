@@ -43,8 +43,8 @@ const Home = () => {
     <div className='h-full'>
       <div className='flex items-center justify-between w-full absolute md:-mt-10 pt-1'>
         <div onClick={() => menuOpen()}>
-          <img className="sm:hidden md:inline p-2 ml-2 mt-1 cursor-pointer" src="/images/menu.svg" alt="logo" />
-          <img className="md:hidden sm:inline p-2 ml-2 mt-1 cursor-pointer" src="/images/menu-white.svg" alt="logo" />
+          <input type="image" className="sm:hidden md:inline p-2 ml-2 mt-1 cursor-pointer" src="/images/menu.svg" alt="menu" />
+          <input type="image" className="md:hidden sm:inline p-2 ml-2 mt-1 cursor-pointer" src="/images/menu-white.svg" alt="menu" />
         </div>
         {showMenu && <NavMenu menuOpen={menuOpen} />}
         <div className="items-center mr-10 sm:hidden md:flex">
