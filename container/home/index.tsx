@@ -43,19 +43,19 @@ const Home = () => {
     <div className='h-full'>
       <div className='flex items-center justify-between w-full absolute md:-mt-10 pt-1'>
         <div onClick={() => menuOpen()}>
-          <img className="sm:hidden md:inline p-2 ml-2 mt-1 cursor-pointer" src="/images/menu.svg" alt="logo" />
-          <img className="md:hidden sm:inline p-2 ml-2 mt-1 cursor-pointer" src="/images/menu-white.svg" alt="logo" />
+          <input type="image" className="sm:hidden md:inline p-2 ml-2 mt-1 cursor-pointer" src="/images/menu.svg" alt="menu"/>
+          <input type="image" className="md:hidden sm:inline p-2 ml-2 mt-1 cursor-pointer" src="/images/menu-white.svg" alt="menu"/>
         </div>
         {showMenu && <NavMenu menuOpen={menuOpen} />}
         <div className="items-center mr-10 sm:hidden md:flex">
           <a href="https://twitter.com/ModernWebCon">
-            <img className="inline p-2" src="/images/Twitter.svg" alt="logo" />
+            <img className="inline p-2" src="/images/Twitter.svg" alt="Twitter" />
           </a>
           {/* <a href="https://www.google.co.in/">
-            <img className="inline p-2" src="/images/LinkedIn.svg" alt="logo" />
+            <img className="inline p-2" src="/images/LinkedIn.svg" alt="LinkedIn" />
           </a> */}
           <a href="https://github.com/event-loop/modern-web-summit">
-            <img className="inline p-2" src="/images/github.svg" alt="logo" />
+            <img className="inline p-2" src="/images/github.svg" alt="GitHub" />
           </a>
         </div>
       </div>
@@ -64,9 +64,9 @@ const Home = () => {
       }
       <div id='home' className='bg-white flex shadow-xs md:h-100-5 sm:h-auto sm:m-0 md:m-10 main-wrap'>
         <div className="sm:hidden md:flex -mt-10 left-bar">
-          <img className="inline self-start ml-8 animated fadeInDownBig" src="/images/left-bar-1.svg" alt="logo" />
-          <img className="inline self-start -ml-5 animated fadeInDownBig slow" src="/images/left-bar-2.svg" alt="logo" />
-          <img className="inline self-start -ml-5 animated fadeInDownBig slower" src="/images/left-bar-3.svg" alt="logo" />
+          <img className="inline self-start ml-8 animated fadeInDownBig" src="/images/left-bar-1.svg" alt="" />
+          <img className="inline self-start -ml-5 animated fadeInDownBig slow" src="/images/left-bar-2.svg" alt="" />
+          <img className="inline self-start -ml-5 animated fadeInDownBig slower" src="/images/left-bar-3.svg" alt="" />
         </div>
         <div className='md:w-2/4 sm:w-full mx-auto text-center md:-mt-10 sm:mt-0 flex flex-col'>
           <Logo />
@@ -83,9 +83,9 @@ const Home = () => {
           </div>
         </div>
         <div className="sm:hidden md:flex mr-8 relative top-1/2 transform -translate-y-48 right-bar">
-          <img className="inline self-end animated fadeInUpBig slower" src="/images/right-bar-1.svg" alt="logo" />
-          <img className="inline self-end animated fadeInUpBig slow -ml-5 mb-10" src="/images/right-bar-2.svg" alt="logo" />
-          <img className="inline self-end animated fadeInUpBig -ml-5 mb-20" src="/images/right-bar-3.svg" alt="logo" />
+          <img className="inline self-end animated fadeInUpBig slower" src="/images/right-bar-1.svg" alt="" />
+          <img className="inline self-end animated fadeInUpBig slow -ml-5 mb-10" src="/images/right-bar-2.svg" alt="" />
+          <img className="inline self-end animated fadeInUpBig -ml-5 mb-20" src="/images/right-bar-3.svg" alt="" />
         </div>
       </div>
 
