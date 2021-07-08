@@ -23,11 +23,7 @@ body {
     background-size: 200% 100%;
     background-position: right bottom;
 
-    &:focus {
-        @apply outline-none;
-    }
-
-    &:hover {
+    &:hover, &:focus {
         @apply text-lightGreen-200;
         background-position: left bottom;
 

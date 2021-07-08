@@ -5,11 +5,11 @@ const Button = (props) => {
     const buttonClass = "animate-btn w-full"
     return (props.link ?
         <Link href={props.link}>
-            <button
+            <a
                 className={buttonClass}
                 type="button" >
                 {props.text}
-            </button>
+            </a>
         </Link> :
         <button
             onClick={() => props.handleButtonClick()}
