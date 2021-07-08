@@ -22,14 +22,18 @@ const SpeakerFilter = (props: SpeakerFilterProps) => {
 
 const FilterItem = (props: FilterItemProps) => {
   const { image, title, selected, onClick } = props
+  const id = title.replace(/\s+/g, '')
   return (
-    <div
-      className={`sm:flex-70 lg:flex-auto whitespace-no-wrap sm:mr-3 lg:mr-0 lg:mb-3 lg:w-full flex p-3 rounded cursor-pointer ${selected ? 'bg-black' : 'bg-gray-600 hover:bg-gray-700'}`}
-      onClick={onClick}
-    >
-      <img src={image} className="h-5 mr-3" />
-      <p className="pr-2 text-1-2 text-white uppercase sm:font-medium lg:font-extrabold leading-5 ">{title}</p>
-    </div>
+    <>
+      <input type="checkbox" id={id} className="sr-only speaker-filter-checkbox" checked={selected} onChange={onClick}/>
+      <label
+        htmlFor={id}      
+        className={`sm:flex-70 lg:flex-auto whitespace-no-wrap sm:mr-3 lg:mr-0 lg:mb-3 lg:w-full flex p-3 rounded cursor-pointer ${selected ? 'bg-black' : 'bg-gray-600 hover:bg-gray-700'}`}
+      >
+        <img src={image} className="h-5 mr-3" alt="" />
+        <p className="pr-2 text-1-2 text-white uppercase sm:font-medium lg:font-extrabold leading-5 ">{title}</p>
+      </label>
+    </>
   )
 }
 

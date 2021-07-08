@@ -217,3 +217,9 @@ body {
         @apply p-6;
     }
 }
+
+.speaker-filter-checkbox:focus + label {
+    outline: 5px auto Highlight;
+    outline: 5px auto -webkit-focus-ring-color;
+    background-color: #343434;
+}
