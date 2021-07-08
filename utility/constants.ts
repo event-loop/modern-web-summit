@@ -290,3 +290,7 @@ export const buttonList = [
     pageName: 'curators'
   }
 ]
+
+
+export const focusableModalElementTypes =
+ 'a[href], button, textarea, input[type="text"], input[type="radio"], input[type="checkbox"], input[type="image"], select'
